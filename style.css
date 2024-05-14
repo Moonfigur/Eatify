@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lavender; /* Change as needed */
+  }
+  
+  .logotab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+  }
+  
+  .logotab .logo1 {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .Hometab a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .Hometab a:hover {
+    background-color: #555;
+  }
+
+  .logo1{
+    border-radius: 40%;
+  }
+  
+  .logo2 {
+    display: block;
+    margin: auto; /* Centers the image horizontally */
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    margin-top: 20px; /* Adjust spacing from the top */
+  }
+  
+
+  
+
+  .search-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchInput {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+#searchBtn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: #007bff;
+}
+
+
+
+
